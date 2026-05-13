@@ -1,4 +1,4 @@
-# Prompt e Resposta - Análise de Testes de Validação de Senha
+# Prompt de Resposta - Análise de Testes de Validação de Senha
 
 ## Prompt do Usuário
 

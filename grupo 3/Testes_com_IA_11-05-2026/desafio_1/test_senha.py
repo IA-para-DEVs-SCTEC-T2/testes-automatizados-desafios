@@ -1,6 +1,12 @@
+import importlib.util
 import pytest
 from datetime import datetime
-from teste import validar_senha
+from pathlib import Path
+
+_spec = importlib.util.spec_from_file_location("desafio_1", Path(__file__).parent / "desafio_1.py")
+_mod = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(_mod)
+validar_senha = _mod.validar_senha
 
 LOG_FILE = "resultados_testes.log"
 
