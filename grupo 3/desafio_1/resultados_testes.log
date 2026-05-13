@@ -1,0 +1,8 @@
+2026-05-12 19:25:33 - PASSOU - test_senha_muito_curta | senha='Ab1' | esperado=False | obtido=False
+2026-05-12 19:25:33 - PASSOU - test_senha_sem_maiuscula | senha='abcdefg1' | esperado=False | obtido=False
+2026-05-12 19:25:33 - PASSOU - test_senha_sem_numero | senha='Abcdefgh' | esperado=False | obtido=False
+2026-05-12 19:25:33 - PASSOU - test_senha_curta_sem_maiuscula_sem_numero | senha='abc' | esperado=False | obtido=False
+2026-05-12 19:25:33 - PASSOU - test_senha_valida_minima | senha='Abcdef1g' | esperado=True | obtido=True
+2026-05-12 19:25:33 - PASSOU - test_senha_valida_longa | senha='Senha123Segura' | esperado=True | obtido=True
+2026-05-12 19:25:33 - PASSOU - test_senha_valida_multiplos_numeros | senha='Abc12345' | esperado=True | obtido=True
+2026-05-12 19:25:33 - PASSOU - test_senha_segura | senha='C0ntr@senha$Segura2026' | esperado=True | obtido=True
