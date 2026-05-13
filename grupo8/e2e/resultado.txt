@@ -1,0 +1,13 @@
+collected 9 items                                                                                                                         
+
+test_login.py::test_login_sucesso_redireciona_para_dashboard[chromium] PASSED
+test_login.py::test_login_falha_exibe_mensagem_credenciais_invalidas[chromium] PASSED
+test_login.py::test_campos_email_e_senha_visiveis_e_habilitados[chromium] PASSED
+test_login.py::test_mensagem_erro_vazia_ao_carregar_pagina[chromium] PASSED
+test_login.py::test_login_com_campos_vazios_nao_redireciona[chromium] PASSED
+test_login.py::test_titulo_pagina_login[chromium] PASSED
+test_login.py::test_titulo_pagina_dashboard[chromium] PASSED
+test_login.py::test_mensagem_boas_vindas_no_dashboard[chromium] PASSED
+test_login.py::test_login_falha_depois_sucesso_redireciona_corretamente[chromium] PASSED
+
+============================================================ 9 passed in 1.14s ============================================================
